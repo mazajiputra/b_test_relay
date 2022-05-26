@@ -25,9 +25,9 @@ try:
 except KeyboardInterrupt:
 # catches the ctrl-c command, breaks the loop above 
 # and turns the relays off
-    GPIO.output(18, GPIO.LOW)
-    GPIO.output(23, GPIO.LOW)
-    GPIO.output(24, GPIO.LOW)
-    GPIO.output(25, GPIO.LOW)   
+    GPIO.output(12, GPIO.LOW)
+    GPIO.output(16, GPIO.LOW)
+    GPIO.output(20, GPIO.LOW)
+    GPIO.output(21, GPIO.LOW)   
     #Sleep for 5 seconds
     # sleep(5)
