@@ -4,6 +4,9 @@ from time import sleep
 # The script as below using BCM GPIO 00..nn numbers
 GPIO.setmode(GPIO.BCM)
 
+# Disable Warnings
+GPIO.setwarnings(False)
+
 # Set relay pins as output
 GPIO.setup(12, GPIO.OUT)
 GPIO.setup(16, GPIO.OUT)
@@ -16,8 +19,7 @@ GPIO.output(16, GPIO.LOW)
 GPIO.output(20, GPIO.LOW)
 GPIO.output(21, GPIO.LOW)   
 
-# Disable Warnings
-GPIO.setwarnings(False)
+
 try:
     while (True):
         
