@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import RPi.GPIO as GPIO 
 from time import sleep 
+GPIO.setmode(GPIO.BCM) 
 Relay1_GPIO = 12
 Relay2_GPIO = 16 
 Relay3_GPIO = 20
