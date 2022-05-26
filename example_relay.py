@@ -18,7 +18,7 @@ GPIO.output(12, GPIO.LOW)
 GPIO.output(16, GPIO.LOW)
 GPIO.output(20, GPIO.LOW)
 GPIO.output(21, GPIO.LOW)   
-
+sleep(2) 
 
 try:
     while (True):
