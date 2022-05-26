@@ -25,9 +25,9 @@ try:
         
         # Turn all relays ON
         GPIO.output(12, GPIO.LOW)
-        GPIO.output(16, GPIO.LOW)
-        GPIO.output(20, GPIO.LOW)
-        GPIO.output(21, GPIO.LOW)
+        GPIO.output(16, GPIO.HIGH)
+        GPIO.output(20, GPIO.HIGH)
+        GPIO.output(21, GPIO.HIGH)
         # Sleep for 5 seconds
         # sleep(5) 
         # Turn all relays OFF
